@@ -20,8 +20,14 @@
         <thead>
             <tr>
                 <th scope="col" colspan="2">#</th>
-                <th scope="col">Tên khóa học</th>
-                <th scope="col" colspan="2">Mô tả</th>
+                <th scope="col">
+                    Tên khóa học
+                 {{{sortable 'name' _sort}}}
+                </th>
+                <th scope="col" colspan="2">
+                    Mô tả
+                    {{{sortable 'description' _sort}}}
+                </th>
             </tr>
         </thead>
         <tbody>
